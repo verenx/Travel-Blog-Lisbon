@@ -2,8 +2,45 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-h1 {
+header {
+    background-image: linear-gradient(rgba(39, 62, 68, 0.6), rgba(39, 62, 68, 0.6)), url("../images/hero-background.png");
+    text-align: center;
+    padding: 30px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+
+header h1 {
     font-size: 96px;
-    font-weight: bold;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+
+header h2 {
+    margin-bottom: 52px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+header h3 {
+    margin-top: 286px;
+    font-size: 24;
+}
+
+header a {
+    padding: 15px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+footer {
+    margin-top: 100px;
     text-align: center;
 }
