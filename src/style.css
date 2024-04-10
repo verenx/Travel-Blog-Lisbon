@@ -3,44 +3,73 @@ body {
 }
 
 header {
-    background-image: linear-gradient(rgba(39, 62, 68, 0.6), rgba(39, 62, 68, 0.6)), url("../images/hero-background.png");
+    background-image: linear-gradient(rgba(39, 62, 68, 0.6), rgba(39, 62, 68, 0.8)), url("../images/hero-background.png");
     text-align: center;
-    padding: 30px;
+    padding: 280px 30px;
     color: white;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 900px;
+}
+
+header h3 {
+    font-weight: 900;
+    font-size: 24;
+    margin: 0;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    text-transform: uppercase;
 }
 
 header h1 {
     font-size: 96px;
     font-weight: 700;
     text-align: center;
-    margin: 10px 0 30px 0;
+    margin: 30px 0;
+    line-height: 1;
 }
 
 header h2 {
-    margin-bottom: 52px;
     font-size: 40px;
     font-weight: 400;
+    margin: 0;
+    line-height: 1.5;
 }
 
-header h3 {
-    margin-top: 286px;
-    font-size: 24;
-}
-
-header a {
+header a { 
+    display: inline-block;
+    margin-top: 32px;
+    margin-top: 60px;
     padding: 15px 20px;
     background-color: white;
-    color: black;
+    color: #272044;
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 footer {
     margin-top: 100px;
     text-align: center;
+}
+
+@media (max-width: 900px) {
+    header {
+        padding: 60px 0;
+    }
+    header h3 {
+        font-size: 16px;
+      
+    }
+    
+    header h1 {
+        font-size: 46px;
+    } 
+    
+    header h2 {
+        font-size: 20px;
+    }
+    
 }
