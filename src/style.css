@@ -2,6 +2,11 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.container {
+    max-width: 1400px;
+  margin: 0 auto;
+}
+
 header {
     background-image: linear-gradient(rgba(39, 62, 68, 0.6), rgba(39, 62, 68, 0.8)), url("../images/hero-background.png");
     text-align: center;
@@ -52,12 +57,45 @@ header a {
 
 footer {
     margin-top: 100px;
-   
+    color: white;
+    background-image: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39,32, 68, 0.7)), url("../images/footer.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.footer-container {
+footer .grid {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-column-gap: 30px;
+}
+
+footer section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+footer h4 {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+}
+
+footer a:hover {
+    opacity: 0.8;
 }
 
 @media (max-width: 900px) {
