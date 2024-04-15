@@ -52,7 +52,12 @@ header a {
 
 footer {
     margin-top: 100px;
-    text-align: center;
+   
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 @media (max-width: 900px) {
